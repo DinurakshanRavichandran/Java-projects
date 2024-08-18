@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../../../css/mainPage.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javacourseworkcm1606.AwardWinningProjectController">
+   <children>
+      <Label layoutX="238.0" layoutY="14.0" text="Award winning projects">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="59.0" prefHeight="18.0" prefWidth="60.0" text="Project ID" />
+      <Label layoutX="15.0" layoutY="95.0" text="Category represeted" />
+      <Label layoutX="51.0" layoutY="134.0" text="Project Name" />
+      <TextField fx:id="projectField" layoutX="144.0" layoutY="55.0" prefHeight="27.0" prefWidth="368.0" />
+      <TextField fx:id="categoryField" layoutX="144.0" layoutY="90.0" prefHeight="27.0" prefWidth="368.0" />
+      <TextField fx:id="projectNameField" layoutX="144.0" layoutY="129.0" prefHeight="27.0" prefWidth="368.0" />
+      <Label layoutX="106.0" layoutY="184.0" text="Judge 1" />
+      <Label layoutX="105.0" layoutY="221.0" text="Judge 2" />
+      <Label layoutX="312.0" layoutY="184.0" text="Judge 3" />
+      <Label layoutX="312.0" layoutY="221.0" text="Judge 4" />
+      <TextField fx:id="judge1Field" layoutX="161.0" layoutY="179.0" prefHeight="26.0" prefWidth="140.0" />
+      <TextField fx:id="judge2Field" layoutX="161.0" layoutY="216.0" prefHeight="26.0" prefWidth="140.0" />
+      <TextField fx:id="judge3Field" layoutX="366.0" layoutY="179.0" prefHeight="26.0" prefWidth="140.0" />
+      <TextField fx:id="judge4Field" layoutX="366.0" layoutY="216.0" prefHeight="26.0" prefWidth="140.0" />
+      <Button fx:id="doneButton" layoutX="300.0" layoutY="328.0" mnemonicParsing="false" onAction="#DoneButtonClick" text="Done" />
+      <Button fx:id="resetButton" layoutX="221.0" layoutY="328.0" mnemonicParsing="false" onAction="#ResetButtonClick" text="Reset" />
+      <Button fx:id="backToHomeButton" layoutX="19.0" layoutY="9.0" mnemonicParsing="false" onAction="#HomeButtonClick" prefHeight="27.0" prefWidth="115.0" text="&lt; Back To Home" />
+      <Button fx:id="nextButton" layoutX="138.0" layoutY="328.0" mnemonicParsing="false" onAction="#nextButtonClick" text="Next" />
+   </children>
+</AnchorPane>

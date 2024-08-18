@@ -1,0 +1,24 @@
+ProjectID: 001a
+ProjectName: The production
+Category: Cinema
+TeamMembers: Jing,Jong,Tong,Kong,Gong
+Description: To create cinema
+Country: China
+TeamLogoPath: C:\Users\Dinurakshan\OneDrive\Pictures\Screenshots\Screenshot 2024-07-27 124740.png
+---
+ProjectID: 23
+ProjectName: sdfs
+Category: sdfdsf
+TeamMembers: sdf
+Description: dsf
+Country: sdfsd
+TeamLogoPath: C:\Users\Dinurakshan\OneDrive\Desktop\HTML\Html_cousework\Html sheets\gallery_page\officialLogo.png
+---
+ProjectID: 0001b
+ProjectName: The olabosa
+Category: Driiving
+TeamMembers: Cook,Mick,Sakuna,Tanjiro
+Description: To drive test
+Country: Srilanka
+TeamLogoPath: C:\Users\Dinurakshan\OneDrive\Pictures\Screenshots\Screenshot 2024-07-26 185922.png
+---

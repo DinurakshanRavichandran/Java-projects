@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="452.0" prefWidth="693.0" stylesheets="@../../../css/mainPage.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javacourseworkcm1606.MainPageController">
+   <children>
+      <Label layoutX="31.0" layoutY="30.0" prefHeight="27.0" prefWidth="142.0" text="Welcome Sarah!" textFill="#030202">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="59.0" prefHeight="18.0" prefWidth="111.0" text="Choose an option...">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font></Label>
+      <Button fx:id="addProjectsButton" layoutX="32.0" layoutY="86.0" mnemonicParsing="false" onAction="#addProjectsButtonClick" prefHeight="26.0" prefWidth="185.0" text="Add Projects" />
+      <Button fx:id="updateProjectsButton" layoutX="32.0" layoutY="123.0" mnemonicParsing="false" onAction="#updateProjectsButtonClick" prefHeight="26.0" prefWidth="186.0" text="Update Projects" />
+      <Button fx:id="viewProjectsButton" layoutX="32.0" layoutY="160.0" mnemonicParsing="false" onAction="#viewProjectButtonClick" prefHeight="26.0" prefWidth="186.0" text="View Projects" />
+      <Button fx:id="deleteProjectsButton" layoutX="34.0" layoutY="200.0" mnemonicParsing="false" onAction="#deleteProjectButtonClick" prefHeight="26.0" prefWidth="186.0" text="Delete Projects" />
+      <Button fx:id="saveProjectsButton" layoutX="32.0" layoutY="236.0" mnemonicParsing="false" onAction="#saveProjectsButtonClick" prefHeight="26.0" prefWidth="186.0" text="Save Projects" />
+      <Button fx:id="randomSpotlightSelection" layoutX="32.0" layoutY="276.0" mnemonicParsing="false" onAction="#randomSpotlightButtonClick" prefHeight="26.0" prefWidth="186.0" text="Random Spotlight Selection" />
+      <Button fx:id="awardWinningProjectsButton" layoutX="32.0" layoutY="314.0" mnemonicParsing="false" onAction="#awardWinningProjectsButtonClick" prefHeight="26.0" prefWidth="186.0" text="Award-winning Projects" />
+      <Button fx:id="visualizeAwardWinningProjectsButton" layoutX="31.0" layoutY="353.0" mnemonicParsing="false" onAction="#visualizeButtonClick" prefHeight="26.0" prefWidth="186.0" text="Visualize Award winners" />
+      <Button fx:id="exitButton" layoutX="31.0" layoutY="389.0" mnemonicParsing="false" onAction="#exitButtonClick" prefHeight="26.0" prefWidth="186.0" text="Exit" />
+      <ImageView fx:id="staticImageView" fitHeight="385.0" fitWidth="385.0" layoutX="243.0" layoutY="44.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="255.0" layoutY="9.0" text="Tech Expo">
+         <font>
+            <Font name="Arial Bold" size="30.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

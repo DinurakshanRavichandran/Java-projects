@@ -1,0 +1,108 @@
+/* Set the background color for the entire AnchorPane */
+.anchor-pane {
+    -fx-background-color: #9627e1; /* Main background color */
+}
+
+/* Style for the main label */
+.label {
+    -fx-text-fill: #DF202D; /* Red text for labels */
+    -fx-font-weight: bold;
+    -fx-font-size: 12px; /* Larger font size for main labels */
+}
+
+/* Style for the smaller labels */
+.label:contains('Project ID'), .label:contains('Project Name'), .label:contains('Category'), .label:contains('Team Members'), .label:contains('Description'), .label:contains('Country'), .label:contains('Logo') {
+    -fx-text-fill: #ffffff; /* White text for form labels */
+    -fx-font-weight: bold;
+    -fx-font-size: 8px;
+}
+
+/* Style for TextField */
+.text-field {
+    -fx-background-color: #ffffff; /* White background for text fields */
+    -fx-border-color: #202DDF; /* Cyan border for text fields */
+    -fx-border-width: 1px;
+    -fx-text-fill: #000000; /* Black text color */
+    -fx-padding: 4px;
+    -fx-font-size: 12px;
+}
+
+/* Style for the buttons */
+.button {
+    -fx-background-color: #DF202D; /* Red background for buttons */
+    -fx-text-fill: #FFFFFF; /* White text for buttons */
+    -fx-border-color: #202DDF; /* Cyan border for buttons */
+    -fx-border-width: 1px; /* Border width */
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+    -fx-padding: 4px 8px; /* Padding for buttons */
+}
+
+.button:hover {
+    -fx-background-color: #20DFD2; /* Cyan background on hover */
+    -fx-text-fill: #DF202D; /* Red text on hover */
+}
+
+/* Style for the ImageView */
+.image-view {
+    -fx-effect: dropshadow(one-pass-box, rgba(0,0,0,0.8), 10, 0.5, 0, 0); /* Adding a shadow effect */
+    -fx-border-color: #202DDF; /* Cyan border */
+    -fx-border-width: 1px;
+}
+
+/* Style for TableView */
+.table-view {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #202DDF; /* Cyan border */
+    -fx-border-width: 1px;
+    -fx-table-cell-border-color: #202DDF; /* Cyan border for cells */
+    -fx-padding: 8px; /* Padding for the table */
+}
+
+/* Style for TableColumn */
+.table-column {
+    -fx-background-color: #9627e1; /* Main background color */
+    -fx-text-fill: #ffffff; /* White text */
+    -fx-font-weight: bold;
+    -fx-font-size: 12px;
+}
+
+/* Style for BarChart */
+.bar-chart {
+    -fx-background-color: #ffffff; /* White background */
+    -fx-border-color: #202DDF; /* Cyan border */
+    -fx-border-width: 1px;
+    -fx-padding: 8px;
+}
+
+/* Style for BarChart Axis */
+.category-axis, .number-axis {
+    -fx-tick-label-fill: #DF202D; /* Red tick labels */
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.bar-chart .chart-bar {
+    -fx-bar-fill: #20DFD2; /* Cyan bar fill */
+}
+
+/* Additional enhancements for buttons */
+.button:pressed {
+    -fx-background-color: #202DDF; /* Darker cyan background on press */
+    -fx-text-fill: #FFFFFF; /* White text on press */
+}
+
+/* Style for back buttons */
+.back-button {
+    -fx-background-color: #202DDF; /* Cyan background for back buttons */
+    -fx-text-fill: #FFFFFF; /* White text for back buttons */
+    -fx-border-color: #DF202D; /* Red border for back buttons */
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+}
+
+.back-button:hover {
+    -fx-background-color: #DF202D; /* Red background on hover */
+    -fx-text-fill: #202DDF; /* Cyan text on hover */
+}
